@@ -1,5 +1,5 @@
 # README: Emotion Recognition using EmoDB Dataset
-## Overview
+### Overview
 
 This project implements an emotion recognition system using the EmoDB dataset, a collection of labeled audio files representing various emotional states. The system extracts features from the audio files, trains machine learning classifiers, and evaluates their performance in predicting emotions such as Angry, Happy, Sad, and Neutral.
 Features Extracted
@@ -9,7 +9,7 @@ Features Extracted
 - Mel Spectrogram: Encodes the short-term power spectrum in the Mel scale.
 - STFT (Short-Time Fourier Transform): Calculates the frequency spectrum over time.
 
-## Machine Learning Models
+### Machine Learning Models
 
 The following classifiers are trained and evaluated:
 
@@ -19,14 +19,14 @@ The following classifiers are trained and evaluated:
 - Naive Bayes Classifier
 - K-Nearest Neighbors (KNN)
 
-## Key Libraries
+### Key Libraries
 
 - Audio Processing: librosa, soundfile
 - Machine Learning Models: sklearn
 - Visualization: matplotlib, seaborn
 - Data Handling: numpy, pandas
 
-# Workflow
+### Workflow
 1. Data Preprocessing
 
     Audio features are extracted from .wav files using the extract_feature function.
@@ -48,7 +48,7 @@ The following classifiers are trained and evaluated:
     The performance of all models is compared using a bar chart.
     Precision, recall, and F1-scores are also plotted for detailed comparison.
 
-## Results
+### Results
 
 Each model's performance is measured and compared:
 
@@ -58,7 +58,7 @@ Each model's performance is measured and compared:
 - Naive Bayes: Simple but effective for smaller datasets.
 - KNN: Performs well when features are scaled but lacks predict_proba by default.
 
-## Prerequisites
+### Prerequisites
 
 Install required Python libraries:
 
@@ -69,13 +69,13 @@ Place the EmoDB .wav files in the designated directory:
 ```/content/drive/MyDrive/EmoDB/```
 
 
-Visualization Examples
+### Visualization Examples
 
 - Accuracy Comparison: A bar chart comparing the accuracy of all classifiers.
 - Confusion Matrices: Heatmaps showing the distribution of predicted vs. true labels for each classifier.
 - ROC Curves: Multi-class ROC curves plotted for supported classifiers.
 
-Future Improvements
+### Future Improvements
 
 - Add support for additional emotions.
 - Experiment with deep learning models for improved accuracy.
