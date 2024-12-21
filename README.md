@@ -1,8 +1,8 @@
 # README: Emotion Recognition using EmoDB Dataset
 ### Overview
 
-This project implements an emotion recognition system using the EmoDB dataset, a collection of labeled audio files representing various emotional states. The system extracts features from the audio files, trains machine learning classifiers, and evaluates their performance in predicting emotions such as Angry, Happy, Sad, and Neutral.
-Features Extracted
+    This project implements an emotion recognition system using the EmoDB dataset, a collection of labeled audio files representing various emotional states. The system extracts features from the audio files, trains machine learning classifiers, and evaluates their performance in predicting emotions such as Angry, Happy, Sad, and Neutral.
+    Features Extracted
 
 - MFCC (Mel-Frequency Cepstral Coefficients): Represents the power spectrum of the audio signal.
 - Chroma Features: Captures the tonal content and pitch information.
@@ -60,13 +60,13 @@ Each model's performance is measured and compared:
 
 ### Prerequisites
 
-Install required Python libraries:
+    Install required Python libraries:
 
-```pip install librosa soundfile numpy scikit-learn matplotlib seaborn pandas```
+    ```pip install librosa soundfile numpy scikit-learn matplotlib seaborn pandas```
 
-Place the EmoDB .wav files in the designated directory:
+    Place the EmoDB .wav files in the designated directory:
 
-```/content/drive/MyDrive/EmoDB/```
+    ```/content/drive/MyDrive/EmoDB/```
 
 
 ### Visualization Examples
